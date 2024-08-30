@@ -23,4 +23,8 @@ jobs:
 
       - name: Build and run  Docker Compose
         run: |
+          sudo echo "sk-D2dKdz60REhOBU7n68Ca53F290124e138177C8Dd7b151239" >.env
+
+      - name: Build and run  Docker Compose
+        run: |
           docker-compose -f docker-compose.yml build
